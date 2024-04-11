@@ -41,11 +41,15 @@ public class Program {
 				list.add(new LegalPerson(name, annualIncome, numberOfEmployees));
 			}
 		}
-		double sum = 0.0;
+		
 		System.out.println();
 		System.out.println("TAXES PAID:");
 		for (Taxpayer taxpayer : list) {
 			System.out.println(taxpayer.getName() + ": $ " + String.format("%.2f", taxpayer.tax()));
+		}
+		
+		double sum = 0.0;
+		for (Taxpayer taxpayer : list) {
 			sum += taxpayer.tax();
 		}
 		
