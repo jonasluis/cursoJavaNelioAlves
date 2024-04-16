@@ -1,3 +1,4 @@
 \.metadata\.plugins* linguist-vendored
 *.JavaScript linguist-vendored=false
 *.Java linguist-detectable=true
+*.js linguist-language=Java
