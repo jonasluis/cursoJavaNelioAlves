@@ -14,6 +14,5 @@ public class PaypalService implements OnlinePaymentService {
 	public Double interest(Double amount, Integer months) {
 		return amount * MONTHLY_INTEREST * months;
 	}
-
 	
 }

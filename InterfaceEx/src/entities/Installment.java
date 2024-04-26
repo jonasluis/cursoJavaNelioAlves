@@ -39,6 +39,4 @@ public class Installment {
 		return sdf.format(dueDate) + " - " + String.format("%.2f", amount);
 	}
 	
-	
-
 }
